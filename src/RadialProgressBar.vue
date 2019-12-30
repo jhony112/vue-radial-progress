@@ -105,11 +105,11 @@ export default {
   data () {
     return {
       gradient: {
-        fx: 0.99,
-        fy: 0.5,
-        cx: 0.5,
-        cy: 0.5,
-        r: 0.65
+        fx: "0.99%",
+        fy: "0.5%",
+        cx: "0.5%",
+        cy: "0.5%",
+        r: "0.65%"
       },
       gradientAnimation: null,
       currentAngle: 0,
